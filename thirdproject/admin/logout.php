@@ -10,6 +10,6 @@ session_unset();
 session_destroy();
  
 // Redirect to login page
-header("location: login.php");
+header("location: abdul_0000_1382_wxyz.php");
 exit;
 ?>

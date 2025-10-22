@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Disallow unnecessary files/folders (optional – remove if not needed)
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://abdulazeez.unaux.com/sitemap.xml
