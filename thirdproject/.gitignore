@@ -1,0 +1,16 @@
+#Laravel & PHP ignore rules
+/vendor/
+/node_modules/
+.env
+.env.*
+*.log
+
+#IDE and system files
+.vscode/
+.idea/
+.DS_Store
+
+
+#Sensitive or Server-specific files
+admin/.htaccess
+*.htpasswd
