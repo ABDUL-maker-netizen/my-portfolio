@@ -1,9 +1,0 @@
-AuthType Basic
-AuthName "Restricted Admin Area"
-AuthUserFile "C:\xampp\secure_folder/.htpasswd"
-Require valid-user
-
-<FilesMatch "^.*(\.htaccess|\.htpasswd)$">
-    Order allow,deny
-    Deny from all
-</FilesMatch>
